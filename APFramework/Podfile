@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '10.0'
+
+target 'APFramework' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for APFramework
+  
+    inhibit_all_warnings!
+
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxDataSources'
+    
+    pod 'Moya/RxSwift'
+    pod 'ObjectMapper'
+    pod 'SwiftyJSON'
+    
+    pod 'Then'
+    pod 'SnapKit'
+    pod 'Reusable'
+    pod 'Kingfisher'
+    
+    pod 'SwifterSwift'
+    pod 'IQKeyboardManagerSwift'
+    
+    pod 'MJRefresh'
+    pod 'MBProgressHUD'
+    
+    
+    
+#    pod 'GPUImage'
+    pod 'OpenCV'
+    
+    pod 'Socket.IO-Client-Swift'
+    
+end
