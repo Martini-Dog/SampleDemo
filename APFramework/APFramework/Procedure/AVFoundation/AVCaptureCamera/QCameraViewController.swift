@@ -38,7 +38,7 @@ class QCameraViewController: QBaseViewController {
 extension QCameraViewController: QSystemCameraDelegate {
     
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-        
+//        printf("\(sampleBuffer)")
     }
 }
 
@@ -59,6 +59,4 @@ extension QCameraViewController {
         
         navigationController?.barStyle(.clear)
     }
-    
-    override var prefersStatusBarHidden: Bool { return true }
 }

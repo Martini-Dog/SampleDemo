@@ -9,6 +9,13 @@
 import UIKit
 import AVFoundation
 
+// MARK: - 将采集的裸数据抛出, 方便外部调试
+
+protocol QSystemCameraDelegate: NSObjectProtocol {
+    
+    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection)
+}
+
 // MARK: -
 
 class QSystemCamera: UIView {
@@ -114,17 +121,4 @@ extension QSystemCamera {
     }
 
     override class var layerClass: AnyClass { return AVCaptureVideoPreviewLayer.self } // AVSampleBufferDisplayLayer
-}
-
-
-// MARK: - 将采集的裸数据抛出, 方便外部调试
-
-protocol QSystemCameraDelegate: NSObjectProtocol {
-    
-    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection)
-}
-
-extension QSystemCameraDelegate {
-    
-    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) { }
 }

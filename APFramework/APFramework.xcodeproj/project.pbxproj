@@ -44,7 +44,6 @@
 		6530D2C925E8989200DDB3A9 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530D2AC25E8972E00DDB3A9 /* libiconv.tbd */; };
 		65510B55255BC77800EC123B /* QBLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65510B54255BC77800EC123B /* QBLEManager.swift */; };
 		65511F7524FF39F0005D2296 /* QCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65511F7424FF39F0005D2296 /* QCameraViewController.swift */; };
-		6564032E246AC1C800F34DF4 /* VIWebSocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 6564032D246AC1C800F34DF4 /* VIWebSocketIO.m */; };
 		6572511C253699AE0074A695 /* Pods_APFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122826E63CD8D64BBB1CB86D /* Pods_APFramework.framework */; };
 		65A0A2862559419B000FCF9A /* QAVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0A2852559419B000FCF9A /* QAVPlayerViewController.swift */; };
 		65C4398F24E140FE00DDFCA0 /* VIPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C4398E24E140FE00DDFCA0 /* VIPhotosManager.m */; };
@@ -214,21 +213,15 @@
 		6530D29925E8965500DDB3A9 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavdevice.a; sourceTree = "<group>"; };
 		6530D29A25E8965500DDB3A9 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
 		6530D29B25E8965500DDB3A9 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
-		6530D2A425E8970900DDB3A9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		6530D2A625E8971100DDB3A9 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		6530D2A825E8971C00DDB3A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6530D2AA25E8972400DDB3A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		6530D2AC25E8972E00DDB3A9 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		6530D2AD25E8974C00DDB3A9 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		6530D2AE25E8975300DDB3A9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		6547A5DB24AB304F00AFD160 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		6547A5DC24AB304F00AFD160 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		65510B54255BC77800EC123B /* QBLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QBLEManager.swift; sourceTree = "<group>"; };
 		65511F7424FF39F0005D2296 /* QCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCameraViewController.swift; sourceTree = "<group>"; };
-		6564032C246AC1C800F34DF4 /* VIWebSocketIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIWebSocketIO.h; sourceTree = "<group>"; };
-		6564032D246AC1C800F34DF4 /* VIWebSocketIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIWebSocketIO.m; sourceTree = "<group>"; };
 		6572511F253699CD0074A695 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A0A2852559419B000FCF9A /* QAVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAVPlayerViewController.swift; sourceTree = "<group>"; };
+		65AB21BF25F8CE6000E49547 /* APFramework-Prefix-Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APFramework-Prefix-Header.pch"; sourceTree = "<group>"; };
 		65C4398D24E140FE00DDFCA0 /* VIPhotosManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPhotosManager.h; sourceTree = "<group>"; };
 		65C4398E24E140FE00DDFCA0 /* VIPhotosManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPhotosManager.m; sourceTree = "<group>"; };
 		65CBF49E2563C62F00E1B6E5 /* QSystemCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSystemCamera.swift; sourceTree = "<group>"; };
@@ -307,6 +300,7 @@
 				21CCF0902005B72A00C72A41 /* ViewController.swift */,
 				21CCF09A2005B72A00C72A41 /* Info.plist */,
 				21CCF0952005B72A00C72A41 /* Assets.xcassets */,
+				65AB21BF25F8CE6000E49547 /* APFramework-Prefix-Header.pch */,
 				21EEB6EF20523E2500659BC5 /* APFramework-Bridging-Header.h */,
 				21CCF0922005B72A00C72A41 /* Main.storyboard */,
 				21CCF0972005B72A00C72A41 /* LaunchScreen.storyboard */,
@@ -427,8 +421,6 @@
 			children = (
 				6524BD0B2449AD040005F78A /* QHomeViewController.swift */,
 				65CBF40925622C1700E1B6E5 /* ViewModel */,
-				6564032C246AC1C800F34DF4 /* VIWebSocketIO.h */,
-				6564032D246AC1C800F34DF4 /* VIWebSocketIO.m */,
 				65C4398D24E140FE00DDFCA0 /* VIPhotosManager.h */,
 				65C4398E24E140FE00DDFCA0 /* VIPhotosManager.m */,
 			);
@@ -839,7 +831,9 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-APFramework/Pods-APFramework-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -852,8 +846,6 @@
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
-				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
@@ -861,7 +853,9 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -874,8 +868,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
@@ -912,7 +904,6 @@
 			files = (
 				65CBF49F2563C62F00E1B6E5 /* QSystemCamera.swift in Sources */,
 				216B292D236C7F9E004881CB /* QBaseCollectionViewCell.swift in Sources */,
-				6564032E246AC1C800F34DF4 /* VIWebSocketIO.m in Sources */,
 				21CCF08F2005B72A00C72A41 /* AppDelegate.swift in Sources */,
 				21FB994520453ED800175B9F /* QWebViewController.swift in Sources */,
 				21FB99432045082D00175B9F /* QBaseViewController.swift in Sources */,
@@ -1008,6 +999,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/APFramework/APFramework-Prefix-Header.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1067,6 +1059,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/APFramework/APFramework-Prefix-Header.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1092,12 +1085,12 @@
 				DEVELOPMENT_TEAM = 2RHSU42T5B;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				INFOPLIST_FILE = APFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/APFramework/Third Party/FFMpeg/lib\"",
 					"$(PROJECT_DIR)/APFramework/ThirdParty/FFMpeg/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiuqiu.APFramework;
@@ -1106,6 +1099,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/APFramework/ThirdParty/FFMpeg/include";
 				VALID_ARCHS = "arm64 arm64e x86_64";
 			};
 			name = Debug;
@@ -1121,12 +1115,12 @@
 				DEVELOPMENT_TEAM = 2RHSU42T5B;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				INFOPLIST_FILE = APFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/APFramework/Third Party/FFMpeg/lib\"",
 					"$(PROJECT_DIR)/APFramework/ThirdParty/FFMpeg/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiuqiu.APFramework;
@@ -1134,6 +1128,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/APFramework/APFramework-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/APFramework/ThirdParty/FFMpeg/include";
 				VALID_ARCHS = "arm64 arm64e x86_64";
 			};
 			name = Release;

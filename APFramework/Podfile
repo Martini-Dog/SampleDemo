@@ -30,9 +30,9 @@ target 'APFramework' do
     
     
     
-#    pod 'GPUImage'
+    pod 'GPUImage'
     pod 'OpenCV'
     
-    pod 'Socket.IO-Client-Swift'
+    pod 'CocoaAsyncSocket'
     
 end

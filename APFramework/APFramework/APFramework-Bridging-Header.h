@@ -9,7 +9,13 @@
 #ifndef APFramework_Bridging_Header_h
 #define APFramework_Bridging_Header_h
 
-//#import "VIWebSocketIO.h"
+#import "libavcodec/avcodec.h"
+#import "libavformat/avformat.h"
+#import "libavfilter/avfilter.h"
+//#import "libavfilter/buffersrc.h"
+//#import "libswresample/swresample.h"
+
+
 #import "VIPhotosManager.h"
 
 #endif /* APFramework_Bridging_Header_h */
