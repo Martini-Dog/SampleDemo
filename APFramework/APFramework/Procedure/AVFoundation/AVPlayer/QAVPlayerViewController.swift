@@ -13,7 +13,19 @@ class QAVPlayerViewController: QBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         
+    }
+    
+    let playerView = QPlayerView()
+}
+
+extension QAVPlayerViewController {
+    
+    override func configurtionUI() {
+        
+        view.addSubview(playerView)
+        playerView.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
     }
 }

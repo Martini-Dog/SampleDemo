@@ -45,7 +45,10 @@
 		65510B55255BC77800EC123B /* QBLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65510B54255BC77800EC123B /* QBLEManager.swift */; };
 		65511F7524FF39F0005D2296 /* QCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65511F7424FF39F0005D2296 /* QCameraViewController.swift */; };
 		6572511C253699AE0074A695 /* Pods_APFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122826E63CD8D64BBB1CB86D /* Pods_APFramework.framework */; };
+		6596CB93265656280002E3B7 /* spring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6596CB92265656280002E3B7 /* spring.jpg */; };
+		6596CB952656569C0002E3B7 /* love.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6596CB942656569C0002E3B7 /* love.mp4 */; };
 		65A0A2862559419B000FCF9A /* QAVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0A2852559419B000FCF9A /* QAVPlayerViewController.swift */; };
+		65B7518B260AE9930022ADE4 /* QPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7518A260AE9930022ADE4 /* QPlayerView.swift */; };
 		65C4398F24E140FE00DDFCA0 /* VIPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C4398E24E140FE00DDFCA0 /* VIPhotosManager.m */; };
 		65CBF49F2563C62F00E1B6E5 /* QSystemCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CBF49E2563C62F00E1B6E5 /* QSystemCamera.swift */; };
 /* End PBXBuildFile section */
@@ -220,8 +223,11 @@
 		65510B54255BC77800EC123B /* QBLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QBLEManager.swift; sourceTree = "<group>"; };
 		65511F7424FF39F0005D2296 /* QCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCameraViewController.swift; sourceTree = "<group>"; };
 		6572511F253699CD0074A695 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6596CB92265656280002E3B7 /* spring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring.jpg; sourceTree = "<group>"; };
+		6596CB942656569C0002E3B7 /* love.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = love.mp4; sourceTree = "<group>"; };
 		65A0A2852559419B000FCF9A /* QAVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAVPlayerViewController.swift; sourceTree = "<group>"; };
 		65AB21BF25F8CE6000E49547 /* APFramework-Prefix-Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APFramework-Prefix-Header.pch"; sourceTree = "<group>"; };
+		65B7518A260AE9930022ADE4 /* QPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPlayerView.swift; sourceTree = "<group>"; };
 		65C4398D24E140FE00DDFCA0 /* VIPhotosManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPhotosManager.h; sourceTree = "<group>"; };
 		65C4398E24E140FE00DDFCA0 /* VIPhotosManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPhotosManager.m; sourceTree = "<group>"; };
 		65CBF49E2563C62F00E1B6E5 /* QSystemCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSystemCamera.swift; sourceTree = "<group>"; };
@@ -251,6 +257,7 @@
 		214D8B672135717D00BDC8BB /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				65AB2320260483F200E49547 /* Transitions */,
 				214D8B682135717D00BDC8BB /* SnapKitExtension */,
 			);
 			path = Component;
@@ -290,6 +297,7 @@
 				6524BD0A2449ACB90005F78A /* Home */,
 				65739F2324ED2C8200C5F637 /* PhotoKit */,
 				65739F2224ED2B3200C5F637 /* AVFoundation */,
+				6596CB9026550BB70002E3B7 /* CoreImage */,
 			);
 			path = Procedure;
 			sourceTree = "<group>";
@@ -380,7 +388,7 @@
 				21E194A62017411B009AE096 /* CoreSevice */,
 				2180C99020160ED5005D4F61 /* Extension */,
 				6530CFAB25E8848800DDB3A9 /* ThirdParty */,
-				65BB3C282459514900DCEC90 /* Resource */,
+				6596CB91265655430002E3B7 /* Resource */,
 				2167142A2011F74D0084E226 /* Supporting Files */,
 			);
 			path = APFramework;
@@ -663,6 +671,7 @@
 			isa = PBXGroup;
 			children = (
 				65A0A2852559419B000FCF9A /* QAVPlayerViewController.swift */,
+				65B75189260AE95E0022ADE4 /* Views */,
 			);
 			path = AVPlayer;
 			sourceTree = "<group>";
@@ -694,6 +703,22 @@
 			path = PhotoKit;
 			sourceTree = "<group>";
 		};
+		6596CB9026550BB70002E3B7 /* CoreImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreImage;
+			sourceTree = "<group>";
+		};
+		6596CB91265655430002E3B7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6596CB92265656280002E3B7 /* spring.jpg */,
+				6596CB942656569C0002E3B7 /* love.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		6596DB1725E73F4700D64736 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -701,11 +726,19 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		65BB3C282459514900DCEC90 /* Resource */ = {
+		65AB2320260483F200E49547 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Resource;
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		65B75189260AE95E0022ADE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65B7518A260AE9930022ADE4 /* QPlayerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		65CBF40925622C1700E1B6E5 /* ViewModel */ = {
@@ -800,8 +833,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6596CB93265656280002E3B7 /* spring.jpg in Resources */,
 				21CCF0992005B72A00C72A41 /* LaunchScreen.storyboard in Resources */,
 				21CCF0962005B72A00C72A41 /* Assets.xcassets in Resources */,
+				6596CB952656569C0002E3B7 /* love.mp4 in Resources */,
 				21CCF0942005B72A00C72A41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -924,6 +959,7 @@
 				216B292C236C7F9E004881CB /* QTableViewHeaderFooterView.swift in Sources */,
 				216C2A5420163472003201AC /* BundleExtensiom.swift in Sources */,
 				214D8B6B2135717D00BDC8BB /* ConstraintArray+Extensions.swift in Sources */,
+				65B7518B260AE9930022ADE4 /* QPlayerView.swift in Sources */,
 				214D8B6C2135717D00BDC8BB /* ConstraintArrayDSL.swift in Sources */,
 				216B292B236C7F9E004881CB /* QBaseTableViewCell.swift in Sources */,
 				21FB993F2044043100175B9F /* QNavigationController.swift in Sources */,

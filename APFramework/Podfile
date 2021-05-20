@@ -31,7 +31,7 @@ target 'APFramework' do
     
     
     pod 'GPUImage'
-    pod 'OpenCV'
+#    pod 'OpenCV'
     
     pod 'CocoaAsyncSocket'
     
